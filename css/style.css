@@ -241,6 +241,7 @@ a:focus {
     background: transparent;  /* optional: just make scrollbar invisible */
   }
 
+/*
 .boTop {
   border-top: 1px solid #000;
 }
@@ -269,7 +270,7 @@ a:focus {
 .bord {
   border: 1px solid black;
 }
-
+*/
 /*overridden bootsrap*/
 .row {
   min-height:14px;
@@ -278,11 +279,7 @@ a:focus {
   overflow-y: hidden;
   display: inline-block;
 
-  /*add for padding w/o lines
-  padding: 3%;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-  */
+  margin-bottom: 8vh;
 
   /*Alternate for show system
   margin-top: 3vh;
@@ -300,6 +297,15 @@ a:focus {
   padding-top: 2vh;
   padding-left: 3%;
   line-height: 1.5rem;
+}
+
+.row a {
+  color: #000;
+
+}
+
+.row a:hover {
+  color: #bbb;
 }
 .col-sm-1,.col-sm-2,.col-sm-3,
 .col-sm-4,.col-sm-5,.col-sm-6,
