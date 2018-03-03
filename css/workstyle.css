@@ -11,7 +11,6 @@ body {
 
   cursor: crosshair;
   padding-top: 5vh;
-  z-index: 9998;
 }
 
 /*
@@ -91,7 +90,7 @@ a {
 .sub a{
   color: #000;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   border: 1px solid black;
   margin-right: 2%;
   padding-left: 3%;
@@ -103,7 +102,7 @@ a {
 .sub a:hover {
   color: #fff;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   background-color: #000;
   margin-right: 2%;
   padding-left: 3%;
@@ -128,7 +127,7 @@ a {
 .sub a:visited {
   color: #000;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   border: 1px solid black;
   margin-right: 2%;
   padding-left: 3%;
@@ -171,7 +170,7 @@ a:focus {
   background-blend-mode: darken;
   background-repeat: repeat;
   background-color: #fff;
-  z-index: 9999;
+  z-index: 9980;
 /*
   background-image: url('../img/texture5.jpg');
   background-repeat: no-repeat;
@@ -278,9 +277,7 @@ a:focus {
   overflow-y: hidden;
   display: inline-block;
 
-  margin-bottom: 5vh;
-  margin-top: 5vh;
-
+  margin-bottom: 10vh;
   /*Alternate for show system
   margin-top: 3vh;
   margin-bottom: 3vh;*/
@@ -302,6 +299,8 @@ a:focus {
 
 .black {
   background-color: #000;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   color: #fff;
 }
 

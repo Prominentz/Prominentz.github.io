@@ -90,7 +90,7 @@ a {
 .sub a{
   color: #000;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.9rem;;
   border: 1px solid black;
   margin-right: 2%;
   padding-left: 3%;
@@ -102,7 +102,7 @@ a {
 .sub a:hover {
   color: #fff;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.9rem;;
   background-color: #000;
   margin-right: 2%;
   padding-left: 3%;
@@ -127,7 +127,7 @@ a {
 .sub a:visited {
   color: #000;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.9rem;;
   border: 1px solid black;
   margin-right: 2%;
   padding-left: 3%;
@@ -242,6 +242,7 @@ a:focus {
   }
 
 
+
 .boTop {
   border-top: 1px solid #000;
 }
@@ -278,6 +279,8 @@ a:focus {
   overflow-x: hidden;
   overflow-y: hidden;
   display: inline-block;
+
+  margin-bottom: 10vh;
 
   /*Alternate for show system
   margin-top: 3vh;
@@ -319,6 +322,7 @@ a:focus {
 }
 
 .tab2 {
+margin-bottom: 0px;
 
 }
 
