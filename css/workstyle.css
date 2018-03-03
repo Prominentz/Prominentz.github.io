@@ -150,7 +150,7 @@ a:focus {
 
 /*Header block*/
 #header {
-  position: fixed;
+  position: absolute;
   left: 0px;
   top: 0px;
   width: 100%;
@@ -227,7 +227,6 @@ a:focus {
 }
 /*main container for content*/
 #contain {
-  position: absolute;
   left: 0;
   width: 100%;
   height: 100%;
@@ -277,6 +276,7 @@ a:focus {
   overflow-x: hidden;
   overflow-y: hidden;
   display: inline-block;
+  margin-bottom: 10vh;
 
   /*add for padding w/o lines
   padding: 3%;
