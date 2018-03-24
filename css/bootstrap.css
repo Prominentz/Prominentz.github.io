@@ -541,7 +541,6 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
 }
 
 h4, .h4 {
@@ -2219,16 +2218,18 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  height: 100%;
+  margin-top: 1vh;
+  padding: 0.5rem;
   font-size: 1rem;
-  line-height: 1.25;
-  color: #464a4c;
-  background-color: #fff;
-  background-image: none;
+  /* line-height: 1.25; */
+  background-color: rgba(0,0,0,0);
+  /* background-image: none; */
   -webkit-background-clip: padding-box;
-          background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  background-clip: padding-box;
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
+  /* border-radius: 0.25rem; */
+  bottom: 0px;
   -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -2242,9 +2243,6 @@ pre code {
 }
 
 .form-control:focus {
-  color: #464a4c;
-  background-color: #fff;
-  border-color: #5cb3fd;
   outline: none;
 }
 
@@ -2264,7 +2262,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #636c72;
+  color: #000;
   opacity: 1;
 }
 
